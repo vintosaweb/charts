@@ -1,0 +1,78 @@
+body {
+  background: radial-gradient(circle at 50% 50%, #ffffff, #efefef); }
+  body .one {
+    padding-top: 5rem; }
+    body .one .highcharts-button {
+      display: none; }
+    body .one .highcharts-legend {
+      display: none; }
+    body .one .highcharts-credits {
+      display: none; }
+    body .one .highcharts-stack-labels {
+      display: none; }
+    body .one .col-7 {
+      height: 340px; }
+    body .one .col-5 {
+      height: 340px; }
+    body .one .chart1 {
+      height: 340px; }
+    body .one .chart2 {
+      height: 290px; }
+    body .one .chart3 {
+      height: 290px; }
+
+.carousel-indicators {
+  margin-left: 0;
+  margin-right: 0;
+  right: -20%;
+  left: -20%; }
+  .carousel-indicators li {
+    margin-left: 0;
+    margin-right: 0;
+    height: 6px;
+    width: 640px;
+    bottom: -100px; }
+  .carousel-indicators .active {
+    background: radial-gradient(circle at 50% 50%, #0f203e, #2c4d89); }
+
+.carousel-control-prev {
+  margin-top: 45px;
+  margin-left: -20%;
+  background: #e1e4ea;
+  height: 200px;
+  width: 40px; }
+
+.carousel-control-prev-icon {
+  background-image: url("../img/left.png");
+  height: 30px; }
+
+.carousel-control-next {
+  margin-top: 45px;
+  margin-right: -20%;
+  background: #e1e4ea;
+  height: 200px;
+  width: 40px; }
+
+.carousel-control-next-icon {
+  background-image: url("../img/right.png");
+  height: 30px; }
+
+@media (max-width: 768px) {
+  .carousel-control-prev {
+    margin-left: -10%;
+    height: 200px;
+    width: 20px; }
+
+  .carousel-control-next {
+    margin-right: -10%;
+    height: 200px;
+    width: 20px; }
+
+  .carousel-indicators {
+    right: 0;
+    left: 0; }
+    .carousel-indicators li {
+      height: 6px;
+      bottom: -70px; } }
+
+/*# sourceMappingURL=main.css.map */
